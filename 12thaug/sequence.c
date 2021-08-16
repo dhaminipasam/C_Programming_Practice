@@ -11,17 +11,18 @@ int main()
 	for(i=0;i<n;i++)
 	scanf("%d",&arr[i]);
 	
-	for(i=1;i<n-1;i++)				//loop for traversing the array
+	for(i=1;i<n;i++)				//loop for traversing the array
 	{
 		for(j=0;j<i;j++)            //loop for checking whether sequence is  same as value or not
 		{
 		    count++;				
 		    
-		    if(count < n-1)
+		    if(check_bit < n)
 		    {
+		        
 			    if(arr[check_bit+j]!=i)
 			    {
-			
+			      
 			        flag=1;
 			        goto end;			//if false want to go out of two loops so using go to
 			    }
