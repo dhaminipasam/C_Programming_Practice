@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include"imgheader.h"
 
-static char filename[100]
+static char filename[100];
 
 void prjtlogic(int choice)
 {
@@ -12,10 +12,10 @@ void prjtlogic(int choice)
 	switch(choice)
 	{
 		case 1:
-			vshowimage(filename);
+			showimage(filename);
 			break;
 		case 2:
-			vsaveimage(filename);
+			saveimage(filename);
 			break;
 	}
 
