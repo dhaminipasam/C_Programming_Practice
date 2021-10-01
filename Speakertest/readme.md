@@ -1,0 +1,13 @@
+Speaker
+============
+
+Port 0x61: Speaker
+
+Enabling the speaker
+=========================
+Switch on bit 0 and 1 on port 0x61
+
+Disable the speaker
+=========================
+Write 0x00 on port 0x61
+
